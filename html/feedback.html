@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Jasshan Goel
+	</title>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<script src="../js/main.js"></script> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body class="feedback-body">
+	<ul id="navbar" >
+		<li id="name" > Jasshan Goel</li><br>
+		<li onmouseover="navbar_color_change(this)" onmouseout="navbar_color_reverse(this)"><a  href="feedback.html">Feedback</a></li>
+		<li  onmouseover="navbar_color_change(this)" onmouseout="navbar_color_reverse(this)"><a href="interests.html">Interests</a></li>
+		<li  onmouseover="navbar_color_change(this)" onmouseout="navbar_color_reverse(this)"><a href="index.html">Home</a></li>
+	</ul>
+	<div class="feed-back">	
+		<div class="feed-back-form">
+			<input name="firstname" id="firstname" placeholder="Your Name" type="text"> 
+			<input name="skill" id="skill" placeholder="Skill" type="text"> 
+			<select id="level" name="level">
+				<option value="Proficient">Proficient</option>
+				<option value="Intermediate">Intermediate</option>
+				<option value="Beginner">Beginner</option>
+			</select> <br/>
+			<button onclick="submission()">Submit</button>
+		</div>
+	</div>
+	<div class="feedback-table">
+		<br/>
+		<br/>
+		<br/>
+
+		<h1> Feedback Table</h1>	
+		<br/>
+		<br/>
+		<br/>
+	</div>
+
+	<div class="contact-me">
+		<div class="contact-me-align">
+			<div class="contact-me-counter">
+				<h2> Counter</h2>
+			<button type="button" id="like-button" onclick="setValue()">0</button>
+			</div>
+			<br/>
+
+			<div class="contact-me-location">
+				<h2> Location
+				</h2>
+				<p>
+					Room 213, Bakul,
+					IIIT Campus, Gachibowli
+					Hyderabad - 500032
+				</p>
+			</div>
+			<br/>
+			<div class="contact-me-web">
+				<h2> Around the Web</h2>
+				<a href="https://www.facebook.com/jasshan.goel" target="_blank" ><i class="fa fa-facebook"></i></a>
+				<a href="https://github.com/jasshan29goel" target="_blank"><i class="fa fa-github"></i></a>
+
+
+			</div>
+		</div>
+	</div>
+	<div class="foot">
+		<p>
+			Made with <i class="fa fa-fw fa-heart foot-ic"></i> & <i class="fa fa-fw fa-coffee foot-ic"></i> by Jasshan Goel
+		</p>
+	</div>
+</body>
+</html>
